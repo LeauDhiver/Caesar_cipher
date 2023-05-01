@@ -1,5 +1,4 @@
 ## encryption
-
 def encrypt_caesar(txt, key):
     result = ""
 
@@ -13,6 +12,7 @@ def encrypt_caesar(txt, key):
             result = result + char
 
     return result
+
 
 ## decryption
 def decrypt_caesar(txt, key):
