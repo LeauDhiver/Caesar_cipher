@@ -8,7 +8,7 @@ Caesar cipher는 단순한 암호화 방식이므로 보안적 유용성이 낮�
 ## 예시
 다음은 "HELLO WORLD"를 key=5로 암호화하는 예제입니다.
 
-python  
+```python  
 txt = "HELLO WORLD"  
 key = 5
 
@@ -23,3 +23,4 @@ for char in txt:
         result += char  
 
 print(result) # MJQQT BTWQI
+```
